@@ -4,6 +4,7 @@ let second = document.getElementById("second");
 let body1 = document.getElementById("body1");
 
 const makeRequest = () => {
+    body1.innerHTML = "";
     // console.log("Button Clicked");
     // btn.setAttribute('disabled', 'disabled');
     first.classList.add('d-none');
