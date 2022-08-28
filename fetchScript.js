@@ -9,7 +9,7 @@ const makeRequest = () => {
     first.classList.add('d-none');
     second.classList.remove('d-none');
 
-    const promiseObj = fetch("data.txt");
+    const promiseObj = fetch("/fetch1/data.txt");
     console.log('promiseObj', promiseObj);
     promiseObj.then((res) => {
         console.log('meow');
